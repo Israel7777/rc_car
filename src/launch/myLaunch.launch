@@ -1,0 +1,5 @@
+<launch>
+ 	<node name="body_driver" pkg="car" type="body_driver.py"/>
+ 	<node name="follow_me" pkg="car" type="follow_me.py.py"/>
+ 	<node name="teleop" pkg="car" type="teleop.py"/>
+</launch>
